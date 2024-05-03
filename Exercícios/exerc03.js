@@ -1,4 +1,4 @@
-prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")();
 
 function exercicio03(){
     let distanciaPercorrida = Number(prompt("Digite a distância em KM que você deseja percorrer: "));
