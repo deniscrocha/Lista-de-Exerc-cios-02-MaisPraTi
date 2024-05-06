@@ -3,9 +3,9 @@ const prompt = require("prompt-sync")();
 function exercicio08(){
     let horasAtividadesFisicas = Number(prompt("Digite quantas horas de atividades físicas você fez no mês: "));
     let pontosHora;
-    if(horasAtividadesFisicas < 10){
+    if(horasAtividadesFisicas <= 10){
         pontosHora = horasAtividadesFisicas * 2;
-    }else if(horasAtividadesFisicas >= 10 && horasAtividadesFisicas <= 20){
+    }else if(horasAtividadesFisicas > 10 && horasAtividadesFisicas <= 20){
         pontosHora = horasAtividadesFisicas * 5;
     } else if(horasAtividadesFisicas > 20){
         pontosHora = horasAtividadesFisicas * 10;
