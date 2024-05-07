@@ -57,6 +57,7 @@ while(loopCondition){
             console.log("OBS: Para colocar uma matriz diferente da de exemplo, porfavor modificar o código fonte do exercício 24");
             break;
         case 25:
+            console.log("OBS: Os números da matriz foram gerados automaticamente, um número aleatorio entre 1000 é diminuido de um número aleatorio entre 1000!");
             break;
         case 26:
             break;
