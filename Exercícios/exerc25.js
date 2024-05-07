@@ -21,7 +21,7 @@ function exercicio25(){
     for(let i = 0; i < 15; i++){
         matrizTeste[i] = Array();
         for(let j = 0; j < 20; j++){
-            matrizTeste[i].push((Math.random()*1000)-1 - (Math.random()*1000)-1);
+            matrizTeste[i].push(Math.ceil(Math.random()*1000)-1 - Math.ceil(Math.random()*1000)-1);
         }
     }
     solucao(matrizTeste);
