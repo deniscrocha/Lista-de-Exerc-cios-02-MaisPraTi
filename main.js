@@ -54,6 +54,7 @@ while(loopCondition){
         case 23:
             break;
         case 24:
+            console.log("OBS: Para colocar uma matriz diferente da de exemplo, porfavor modificar o código fonte do exercício 24");
             break;
         case 25:
             break;
