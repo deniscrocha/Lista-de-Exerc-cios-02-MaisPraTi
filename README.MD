@@ -13,7 +13,8 @@ Estamos utilizando o NodeJS para executar os programas em nosso computador fora 
 
 ## Detalhes Técnicos e Guia de Instalação
 Para executar os exercícios basta clonar o repositório no seu computador e executar o arquivo "main.js", neste arquivo existe um loop que vai perguntar qual exercício você quer executar, os exercícios serão importados de seus arquivos respectivos e serão executados!
-Será necessario instalar o prompt-sync para executar alguns exercícios, para isso basta usar o comando "npm install prompt-sync" dentro do diretório e os exercícios vão funcionar. 
+Será necessario instalar o prompt-sync para executar alguns exercícios, para isso basta usar o comando "npm install prompt-sync" dentro do diretório e os exercícios vão funcionar.
+Para o exercício 50 será necessário instalar o pacote uuid utilizando o comando "npm install uuid", para funcionar.
 
 ## Descrição dos Exercícios
 É possível ver a descrição dos exercícios dentro de seus arquivos respectivos.
