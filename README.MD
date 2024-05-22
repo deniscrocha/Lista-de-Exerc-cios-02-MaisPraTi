@@ -1,6 +1,10 @@
 # Lista-de-Exercicios-02-Maisprati
+---
+
 ## Descrição
 Este repositório serve para armazenar os exercícios da segunda lista de exercicios feitos por mim para o curso de programação Full-Stack da Mais Pra TI.
+
+---
 
 # Índice
 - [Tecnologias Usadas](#tecnologias-usadas)
