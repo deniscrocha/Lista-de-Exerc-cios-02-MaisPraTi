@@ -1,3 +1,5 @@
+/*Crie um jogo de JoKenPo (Pedra-Papel-Tesoura).*/
+
 prompt = require("prompt-sync")();
 
 function exercicio05(){
