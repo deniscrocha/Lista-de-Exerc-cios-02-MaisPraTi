@@ -22,13 +22,27 @@ function exercicio45() {
   }
 
   let vetorTeste = [
-    "Ubuntu", "Gleam", "Prolog",
-    "Lua", "Gleam", "Java",
-    "JavaScript", "Gleam", "MongoDB",
-    "Julia", "Python", "SQL",
-    "Prolog", "JavaScript", "Lua",
-    "Prolog", "Debian", "ElementaryOS",
-    "Gleam", "Rust", "Rust",
+    "Ubuntu",
+    "Gleam",
+    "Prolog",
+    "Lua",
+    "Gleam",
+    "Java",
+    "JavaScript",
+    "Gleam",
+    "MongoDB",
+    "Julia",
+    "Python",
+    "SQL",
+    "Prolog",
+    "JavaScript",
+    "Lua",
+    "Prolog",
+    "Debian",
+    "ElementaryOS",
+    "Gleam",
+    "Rust",
+    "Rust",
   ];
 
   solucao(vetorTeste);

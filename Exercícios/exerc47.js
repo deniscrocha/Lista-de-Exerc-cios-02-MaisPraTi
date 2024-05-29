@@ -9,12 +9,12 @@ function exercicio47(){
         let resposta = 0;
         switch(funcaoFornecida){
             case "adicao":
-                for(valor in entrada){
+                for(let valor in entrada){
                     resposta += entrada[valor];
                 }
                 return resposta;
             case "divisao":
-                for(valor in entrada){
+                for(let valor in entrada){
                     if(resposta === 0){
                         resposta = entrada[valor];
                     } else{
@@ -23,7 +23,7 @@ function exercicio47(){
                 }
                 return resposta;
             case "multiplicacao":
-                for(valor in entrada){
+                for(let valor in entrada){
                     if(resposta === 0){
                         resposta = entrada[valor];
                     } else{
@@ -32,7 +32,7 @@ function exercicio47(){
                 }
                 return resposta;
             case "subtracao":
-                for(valor in entrada){
+                for(let valor in entrada){
                     if(resposta === 0){
                         resposta = entrada[valor];
                     }else{
