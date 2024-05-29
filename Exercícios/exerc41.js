@@ -6,20 +6,20 @@ nome e idade.
 
 const prompt = require("prompt-sync")();
 
-function exercicio41(){
-    function solucao(objeto){
-        console.log(`A idade no objeto é: ${objeto.idade}`);
-        email = prompt("Digite o email para armazenar no objeto: ");
-        objeto.email = email;
-        console.log(objeto);
-    }
+function exercicio41() {
+  function solucao(objeto) {
+    console.log(`A idade no objeto é: ${objeto.idade}`);
+    let email = prompt("Digite o email para armazenar no objeto: ");
+    objeto.email = email;
+    console.log(objeto);
+  }
 
-    let objetoTeste = {
-        nome: "Dênis",
-        idade: 23
-    }
+  let objetoTeste = {
+    nome: "Dênis",
+    idade: 23,
+  };
 
-    solucao(objetoTeste);
+  solucao(objetoTeste);
 }
 
 exercicio41();

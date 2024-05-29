@@ -4,17 +4,21 @@ combinando as propriedades de ambos, onde as propriedades de obj2 têm precedên
 sobre as do obj1 em caso de conflitos.
 */
 
-function exercicio43(){
-    function solucao(obj1, obj2){
-        let obj3 = obj1;
-        for(campo in obj2){
-            obj3[campo] = obj2[campo];
-        }
-        console.log(obj3);
+function exercicio43() {
+  function solucao(obj1, obj2) {
+    let obj3 = obj1;
+    for (let campo in obj2) {
+      obj3[campo] = obj2[campo];
     }
-    objTeste1 = {nome: "Dênis", sobrenome:"Rocha", idade:23};
-    objTeste2 = {telefone: "Motorola", sobrenome:"Chaves", modeloTelefone:"Edge 20"};
-    solucao(objTeste1, objTeste2);
+    console.log(obj3);
+  }
+  let objTeste1 = { nome: "Dênis", sobrenome: "Rocha", idade: 23 };
+  let objTeste2 = {
+    telefone: "Motorola",
+    sobrenome: "Chaves",
+    modeloTelefone: "Edge 20",
+  };
+  solucao(objTeste1, objTeste2);
 }
 
 exercicio43();

@@ -14,35 +14,45 @@ INSS).
 
 const prompt = require("prompt-sync")();
 
-function exercicio20(){
-    function fabricaDeFuncionario(matricula, nome, salarioBruto, deducaoInss){
-        return{
-            matricula:matricula,
-            nome:nome,
-            salarioBruto:salarioBruto,
-            deducaoInss: deducaoInss,
-            salarioLiquido: salarioBruto - deducaoInss
-
-        }
-    }
-    let vetorDeFuncionarios = Array();
-    let condicaoDeExecucao = true;
-    while(condicaoDeExecucao){
-        console.log("Vamos Cadastrar um Funcionario!");
-        let matricula = prompt("Digite a matricula do funcionario: ");
-        let nome = prompt("Digite o nome do funcionario: ");
-        let salarioBruto = prompt("Digite o salario bruto do funcionario: ");
-        vetorDeFuncionarios.push(fabricaDeFuncionario(matricula, nome, salarioBruto, ((salarioBruto*12)/100)));
-        (prompt("Deseja adicionar outro funcionario('S' para adicionar outro, qualquer outra tecla para sair): ")=== "S" ? condicaoDeExecucao = true : condicaoDeExecucao = false);
-    }
-    vetorDeFuncionarios.forEach((funcionario) =>{
-        console.log(`Contra-Cheque ${funcionario.nome}
+function exercicio20() {
+  function fabricaDeFuncionario(matricula, nome, salarioBruto, deducaoInss) {
+    return {
+      matricula: matricula,
+      nome: nome,
+      salarioBruto: salarioBruto,
+      deducaoInss: deducaoInss,
+      salarioLiquido: salarioBruto - deducaoInss,
+    };
+  }
+  let vetorDeFuncionarios = Array();
+  let condicaoDeExecucao = true;
+  while (condicaoDeExecucao) {
+    console.log("Vamos Cadastrar um Funcionario!");
+    let matricula = prompt("Digite a matricula do funcionario: ");
+    let nome = prompt("Digite o nome do funcionario: ");
+    let salarioBruto = prompt("Digite o salario bruto do funcionario: ");
+    vetorDeFuncionarios.push(
+      fabricaDeFuncionario(
+        matricula,
+        nome,
+        salarioBruto,
+        (salarioBruto * 12) / 100,
+      ),
+    );
+    prompt(
+      "Deseja adicionar outro funcionario('S' para adicionar outro, qualquer outra tecla para sair): ",
+    ) === "S"
+      ? (condicaoDeExecucao = true)
+      : (condicaoDeExecucao = false);
+  }
+  vetorDeFuncionarios.forEach((funcionario) => {
+    console.log(`Contra-Cheque ${funcionario.nome}
         matricula:${funcionario.matricula},
         nome: ${funcionario.nome},
         Salário bruto: ${funcionario.salarioBruto},
         Dedução INSS: ${funcionario.deducaoInss},
-        Salário Líquido: ${funcionario.salarioLiquido}`)
-    })
+        Salário Líquido: ${funcionario.salarioLiquido}`);
+  });
 }
 
 exercicio20();

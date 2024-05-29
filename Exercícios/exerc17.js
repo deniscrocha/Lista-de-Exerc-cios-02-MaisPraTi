@@ -6,28 +6,28 @@ os dados das pessoas menores de idade.
 
 const prompt = require("prompt-sync")();
 
-function exercicio17(){
-    let vetorNomes = Array();
-    let vetorIdades = Array();
+function exercicio17() {
+  let vetorNomes = Array();
+  let vetorIdades = Array();
 
-    for(let i = 0; i<9; i++){
-        vetorNomes.push(prompt(`Digite o nome da pessoa número ${i+1}: `));
-        while(true){
-            let idade = Number(prompt(`Digite a idade da pessoa número: ${i+1}: `));
-            if(!isNaN(idade)){
-                vetorIdades.push(idade);
-                break;
-            }
-            console.log("Idade invalida!");
-        }
+  for (let i = 0; i < 9; i++) {
+    vetorNomes.push(prompt(`Digite o nome da pessoa número ${i + 1}: `));
+    while (true) {
+      let idade = Number(prompt(`Digite a idade da pessoa número: ${i + 1}: `));
+      if (!isNaN(idade)) {
+        vetorIdades.push(idade);
+        break;
+      }
+      console.log("Idade invalida!");
     }
-    let vetorMenorDeIdade = Array();
-    for(let i = 0; i < vetorIdades.length; i++){
-        if(vetorIdades[i] < 18){
-            vetorMenorDeIdade.push({nome: vetorNomes[i], idade:vetorIdades[i]});
-        }
+  }
+  let vetorMenorDeIdade = Array();
+  for (let i = 0; i < vetorIdades.length; i++) {
+    if (vetorIdades[i] < 18) {
+      vetorMenorDeIdade.push({ nome: vetorNomes[i], idade: vetorIdades[i] });
     }
-    console.log(vetorMenorDeIdade);
+  }
+  console.log(vetorMenorDeIdade);
 }
 
 exercicio17();

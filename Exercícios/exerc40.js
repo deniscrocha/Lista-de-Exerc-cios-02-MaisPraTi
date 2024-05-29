@@ -7,45 +7,45 @@ corresponderem ao resultado oficial. (Observação: não é necessário procurar
 e quadras, apenas por quinas.)
 */
 
-function exercicio40(){
-    function solucao(vetorResultado, matrizApostas){
-        let vetorAcertos = Array();
-        for(let i=0; i<matrizApostas.length; i++){
-            let contadorAcertos = 0;
-            for(let j=0; j<matrizApostas[i].length; j++){
-                if(matrizApostas[i][j] === vetorResultado[j]){
-                    contadorAcertos++;
-                }
-            }
-            vetorAcertos.push(contadorAcertos);
+function exercicio40() {
+  function solucao(vetorResultado, matrizApostas) {
+    let vetorAcertos = Array();
+    for (let i = 0; i < matrizApostas.length; i++) {
+      let contadorAcertos = 0;
+      for (let j = 0; j < matrizApostas[i].length; j++) {
+        if (matrizApostas[i][j] === vetorResultado[j]) {
+          contadorAcertos++;
         }
-        vetorAcertos.forEach((acertos, apostador)=>{
-            if(acertos === 5){
-                console.log(`Apostador: ${apostador} Ganhador!`)
-            }
-        })
+      }
+      vetorAcertos.push(contadorAcertos);
     }
+    vetorAcertos.forEach((acertos, apostador) => {
+      if (acertos === 5) {
+        console.log(`Apostador: ${apostador} Ganhador!`);
+      }
+    });
+  }
 
-    let resultado = [1, 2, 4, 5, 6]
-    let apostas = Array();
-    for(let i=0; i<50; i++){
-        apostas[i] = Array();
-        for(let j=0; j<5;j++){
-            let aposta =Math.ceil(Math.random()*6);
-            let igual = false;
-            for(let k = 0; k<apostas[i].length;k++){
-                if(aposta === apostas[i][k]){
-                    igual = true;
-                }
-            }
-            if(igual){
-                j--;
-            } else{
-                apostas[i].push(aposta);
-            }
+  let resultado = [1, 2, 4, 5, 6];
+  let apostas = Array();
+  for (let i = 0; i < 50; i++) {
+    apostas[i] = Array();
+    for (let j = 0; j < 5; j++) {
+      let aposta = Math.ceil(Math.random() * 6);
+      let igual = false;
+      for (let k = 0; k < apostas[i].length; k++) {
+        if (aposta === apostas[i][k]) {
+          igual = true;
         }
+      }
+      if (igual) {
+        j--;
+      } else {
+        apostas[i].push(aposta);
+      }
     }
-    solucao(resultado, apostas);
+  }
+  solucao(resultado, apostas);
 }
 
 exercicio40();
