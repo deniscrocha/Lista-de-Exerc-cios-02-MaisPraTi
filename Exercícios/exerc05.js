@@ -63,4 +63,5 @@ function exercicio05() {
   }
 }
 
+module.exports = { exercicio05 }
 exercicio05();

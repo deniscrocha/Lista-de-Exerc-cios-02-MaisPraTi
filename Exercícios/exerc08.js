@@ -31,4 +31,5 @@ function exercicio08() {
   );
 }
 
+module.exports = { exercicio08 }
 exercicio08();

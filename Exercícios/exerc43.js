@@ -21,4 +21,5 @@ function exercicio43() {
   solucao(objTeste1, objTeste2);
 }
 
+module.exports = { exercicio43 }
 exercicio43();

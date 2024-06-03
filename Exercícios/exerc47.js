@@ -49,4 +49,5 @@ function exercicio47(){
     console.log(solucao(objetoDeEntrada, "subtracao"));
 }
 
+module.exports = { exercicio47 }
 exercicio47();

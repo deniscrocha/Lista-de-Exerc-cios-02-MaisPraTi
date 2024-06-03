@@ -24,4 +24,5 @@ function exercicio27() {
   ];
   solucao(matrizExemplo, 10);
 }
+module.exports = { exercicio27 }
 exercicio27();

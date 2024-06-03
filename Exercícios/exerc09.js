@@ -45,4 +45,5 @@ function exercicio09() {
   );
 }
 
+module.exports = { exercicio09 }
 exercicio09();

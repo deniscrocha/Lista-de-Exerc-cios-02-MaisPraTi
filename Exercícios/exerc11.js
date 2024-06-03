@@ -18,4 +18,5 @@ function exercicio11() {
   console.log(`O valor final da soma dos valores da sequência é: ${soma} `);
 }
 
+module.exports = { exercicio11 }
 exercicio11();

@@ -55,4 +55,5 @@ function exercicio20() {
   });
 }
 
+module.exports = { exercicio20 }
 exercicio20();

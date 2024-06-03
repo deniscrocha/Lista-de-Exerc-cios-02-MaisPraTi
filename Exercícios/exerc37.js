@@ -59,4 +59,5 @@ function exercicio37() {
   solucao(gabarito, respostasAlunos);
 }
 
+module.exports = { exercicio37 }
 exercicio37();

@@ -40,4 +40,5 @@ function exercicio35() {
   solucao(vetorDeValores);
 }
 
+module.exports = { exercicio35 }
 exercicio35();

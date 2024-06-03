@@ -23,4 +23,5 @@ function exercicio04(){
     }
 }
 
+module.exports = { exercicio04 }
 exercicio04();

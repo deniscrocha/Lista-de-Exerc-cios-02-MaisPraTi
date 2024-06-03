@@ -52,4 +52,5 @@ function exercicio36() {
   solucao(numerosCertos, apostadores);
 }
 
+module.exports = { exercicio36 }
 exercicio36();

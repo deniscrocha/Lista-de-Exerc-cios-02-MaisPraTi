@@ -39,4 +39,5 @@ function exercicio10() {
   console.log(`Foi encontrado ${pares} números pares.`);
   console.log(`A média foi: ${media}!`);
 }
+module.exports = { exercicio10 }
 exercicio10();

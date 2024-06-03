@@ -48,4 +48,5 @@ function exercicio40() {
   solucao(resultado, apostas);
 }
 
+module.exports = { exercicio40 }
 exercicio40();

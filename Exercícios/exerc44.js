@@ -22,4 +22,5 @@ function exercicio44() {
   solucao(objetoTeste);
 }
 
+module.exports = { exercicio44 }
 exercicio44();

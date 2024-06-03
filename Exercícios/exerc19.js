@@ -64,4 +64,5 @@ function exercicio19() {
   });
 }
 
+module.exports = { exercicio19 }
 exercicio19();

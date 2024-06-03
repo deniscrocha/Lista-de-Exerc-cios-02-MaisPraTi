@@ -28,4 +28,5 @@ function exercicio26() {
   console.log(solucao(matrizA, matrizB));
 }
 
+module.exports = { exercicio26 }
 exercicio26();

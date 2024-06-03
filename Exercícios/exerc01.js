@@ -38,4 +38,6 @@ function exercicio01(){
     console.log(`Você perdeu ${diaPerdidos.toFixed(2)} dias de vida!`);
 }
 
+module.exports = { exercicio01 }
+
 exercicio01();

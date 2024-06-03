@@ -69,4 +69,5 @@ function exercicio38() {
   solucao(vetorTeste, variavelIdentificadora);
 }
 
+module.exports = { exercicio38 }
 exercicio38();

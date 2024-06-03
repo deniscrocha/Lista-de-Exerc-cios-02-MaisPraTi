@@ -49,4 +49,5 @@ function exercicio49() {
   console.log(solucao(transacoes));
 }
 
+module.exports = { exercicio49 }
 exercicio49();

@@ -25,4 +25,5 @@ function exercicio16() {
   console.log(vetorAleatorio);
 }
 
+module.exports = { exercicio16 }
 exercicio16();

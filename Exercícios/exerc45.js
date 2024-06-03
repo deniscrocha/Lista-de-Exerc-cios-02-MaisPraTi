@@ -48,4 +48,5 @@ function exercicio45() {
   solucao(vetorTeste);
 }
 
+module.exports = { exercicio45 }
 exercicio45();

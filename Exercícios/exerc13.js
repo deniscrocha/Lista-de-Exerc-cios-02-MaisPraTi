@@ -12,4 +12,5 @@ function exercicio13() {
   console.log(fibonacci);
 }
 
+module.exports = { exercicio13 }
 exercicio13();

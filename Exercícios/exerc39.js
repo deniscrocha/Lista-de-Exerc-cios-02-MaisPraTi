@@ -25,4 +25,5 @@ function exercicio39() {
   solucao(vetorTeste);
 }
 
+module.exports = { exercicio39 }
 exercicio39();

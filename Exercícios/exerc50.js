@@ -258,4 +258,5 @@ function exercicio50(){
     hotelManagment();
 }
 
+module.exports = { exercicio50 }
 exercicio50();

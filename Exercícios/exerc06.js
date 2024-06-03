@@ -25,4 +25,5 @@ function exercicio06() {
   }
 }
 
+module.exports = { exercicio06 }
 exercicio06();

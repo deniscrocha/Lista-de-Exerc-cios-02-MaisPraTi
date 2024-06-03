@@ -42,4 +42,5 @@ function exercicio29() {
   solucao(matrizTeste);
 }
 
+module.exports = { exercicio29 }
 exercicio29();

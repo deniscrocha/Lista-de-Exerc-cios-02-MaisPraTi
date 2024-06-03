@@ -19,4 +19,5 @@ function exercicio18() {
   console.log(registro);
 }
 
+module.exports = { exercicio18 }
 exercicio18();

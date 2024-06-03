@@ -52,4 +52,5 @@ function exercicio22() {
   console.log(`O maior salário foi de: R$${maiorSalario.toFixed(2)}`);
 }
 
+module.exports = { exercicio22 }
 exercicio22();

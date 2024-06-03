@@ -39,4 +39,5 @@ function exercicio46() {
   solucao(vetorExemplo);
 }
 
+module.exports = { exercicio46 }
 exercicio46();

@@ -19,4 +19,5 @@ function exercicio21() {
   console.log(`O seu peso ideal é: ${calculo(altura, sexo).toFixed(2)} Kg!`);
 }
 
+module.exports = { exercicio21 }
 exercicio21();

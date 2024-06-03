@@ -20,4 +20,5 @@ function exercicio15() {
   });
 }
 
+module.exports = { exercicio15 }
 exercicio15();

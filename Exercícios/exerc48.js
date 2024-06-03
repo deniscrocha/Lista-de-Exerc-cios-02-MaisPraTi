@@ -47,4 +47,5 @@ function exercicio48() {
   solucao(inventarioTesteA, inventarioTesteB);
 }
 
+module.exports = { exercicio48 }
 exercicio48();

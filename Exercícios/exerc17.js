@@ -30,4 +30,5 @@ function exercicio17() {
   console.log(vetorMenorDeIdade);
 }
 
+module.exports = { exercicio17 }
 exercicio17();
